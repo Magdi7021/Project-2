@@ -1,0 +1,84 @@
+.test{
+    height: 600px;
+    font-size: 60px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(245, 245, 245);
+    background-color: burlywood;
+    position: relative;
+}
+.shatha {
+    background-color: rgb(70, 44, 24);
+    padding: 5px 20px ;
+    border-radius: 10px;
+}
+.welcome{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    /* font-size: 150px; */
+    color: #000;
+    font-weight: 900;
+    transform: translate(-50%);
+
+}
+.mybtn{
+    position: absolute;
+    border: none;
+    top:60%;
+    left:50%;
+    transform: translate(-50%);
+    background-color: teal;
+    outline: none ;
+    padding: 5px 20px;
+    border-radius: 20px ;
+    width: 200px;
+    height: 50px !important;
+    font-size: 15px !important;
+}
+.mtext{
+    font-size: 40px ;
+    color:brown;
+    box-shadow: 1px 1px 20px orangered,1px 1px 40px orange;
+}
+
+.mywrapper{
+    position:fixed;
+    top:50%; 
+    left:50%;
+    width:40%;
+    height:80%;
+    margin:auto;
+    background-color:teal;
+    z-index:511102;
+    transform:translate(-50%,-50%);
+    border-radius:25px;
+    background-color: beige;
+    padding: 20px;
+    border:2px solid #09c;
+    text-align: center;
+}
+.myimagewrapper{
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+}
+.mytitlebtn{
+    border-radius: 15px;
+    padding: 10px 25px ;
+    width: 500px;
+    background-color: transparent;
+    margin-top: 120px;
+    box-shadow: 2px 2px 220px rgb(2, 2, 2),1px 1px 80px rgb(16, 74, 82);
+
+}
+.closeIcon{
+
+    width: 50px;
+    height: 30px;
+position: relative;
+top: -10px;
+left: 93%;
+}
